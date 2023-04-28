@@ -1,0 +1,11 @@
+colSums(is.na(data_r))
+str(data_r)#estructura del archivo
+head(data_r)#encabezados del archivo
+colSums(data_r)#calcula la suma del archivo / is.na(data_r) = identifica la ocurrencia de valores faltantes
+colSums(is.na(data_r)) #identifica la ocurrencia de valores faltantes en cada Head y cantidad
+data_r$dato15<- data_r $dato/2 #toma al dato 7 y lo divide en dos a partir de "dato1", creando una nueva columna en la data del "dato15": se cree desde la preexistente.
+data_r$dato15 <- data_r $dato4*3 
+data_r$dato16<- data_r $dato7/4 
+range(data_r$dato9) #entrega un rango de los valores en la columna de "dato4" = min - max (cuando hay vacios los rangos son NA-NA)
+range(data_r$dato9, na.rm = TRUE) #en relacion a los rangos, elimina los datos NA. 
+data_r $dato15 [data_r$dato15 <4] <- NA #todos los valores menores a 4 los elimina NA
